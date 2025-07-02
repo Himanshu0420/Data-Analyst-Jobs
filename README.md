@@ -1,30 +1,45 @@
-# Data-Analyst-Jobs
-This project explores the Data Analyst job market using a dataset of 2000+ job listings.
-It includes visual insights and a machine learning model to predict salary ranges.
+# 📊 Data Analyst Jobs Market Analysis & Salary Prediction
 
-## 🔧 Tools
-- Python, Pandas, Seaborn, Scikit-learn
-- Jupyter Notebook
-- Plotly
+This project was completed as part of my internship at **Unified Mentor Pvt. Ltd.**, where I explored the job market for Data Analysts using a curated dataset provided by the organization.
 
-## 📈 Key Features
-- Cleaned and transformed messy salary data
-- Extracted tech skills like Python/Excel
-- Visualized top job titles, locations, sectors
-- Predicted average salary with Random Forest
+## 🧠 Project Overview
 
-## 🔍 Insights
-- Most jobs are for Data Analysts and Senior Data Analysts
-- Highest salaries are in California (e.g., Newark, Daly City)
-- Biotech & Pharma pays the most on average
-
-## 🤖 ML Model
-- RandomForestRegressor
-- Features: Rating, Tech Skills, Company Size, Founded Year
-- MAE: $X,000 — R²: 0.YZ
+The goal of this project is to analyze the current trends in Data Analyst job listings and build a machine learning model to predict salary ranges based on company and job features.
 
 ## 📁 Dataset
-From [Kaggle](https://www.kaggle.com/andrewmvd/data-analyst-jobs)
 
-## 🧠 Author
-Made by [Your Name](https://github.com/yourusername)
+The dataset was provided by **Unified Mentor Pvt. Ltd.** as part of an internal data science project. It contains job listings for roles such as Data Analyst, Business Analyst, and Financial Analyst across various locations and sectors.
+
+## 🔧 Tools & Libraries Used
+
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- scikit-learn (RandomForestRegressor)
+- Jupyter Notebook
+
+## 📊 Key Features of the Project
+
+- Cleaned and preprocessed job listing data
+- Extracted key skills like Python, Excel, SQL from job descriptions
+- Visualized:
+  - Top job titles and sectors
+  - Salary distribution
+  - State-wise job counts
+- Feature engineered company age, tech skills score
+- Trained a Random Forest Regressor to predict average salary
+
+## 🤖 ML Model Summary
+
+- **Algorithm**: Random Forest Regressor  
+- **Features used**: Rating, Company Age, Tech Skills  
+- **MAE**: ~\$X,XXX  
+- **R² Score**: 0.YZ
+
+## 📈 Insights
+
+- Most job listings are for “Data Analyst” roles
+- Python and Excel are the most in-demand skills
+- High-paying roles are concentrated in specific states like California
+- Company rating and tech stack strongly influence salary
+
+## 📌 Folder Structure
+
